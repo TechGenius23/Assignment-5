@@ -1,0 +1,17 @@
+.banner-card{
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 25%;
+    padding: 20px;
+    margin-left: 450px;
+}
+
+#box{
+    position: absolute;
+    margin: 420px;
+    margin-top: 8px;
+    box-shadow: 5px red;
+    top: 500px;
+}
