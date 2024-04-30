@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.baner{
+    position: relative;
+}
+.textbro{
+    position: absolute;
+    top: 30%;
+    left: 18%
+    
+}
+.btnk{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+.tiktik{
+    position: absolute;
+    bottom: -390%;
+    left: 22%;
+}
+
+.text{
+    text-align: center;
+    
+}
