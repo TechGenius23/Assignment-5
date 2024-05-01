@@ -14,3 +14,15 @@
     margin-top: 8px;
     top: 500px;
 }
+*body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.latter{
+    margin-left: -500px;
+}
