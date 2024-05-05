@@ -128,7 +128,7 @@
               </div>
               <div class="flex gap-2 ">
                 <img class="h-8 w-8 " src="seat-green.png">
-                <p class="font-bold text-sm items-center"><button>40 seat left</button></p>
+                <p class="font-bold text-sm items-center"><button id="totalSeat">40 seat left</button></p>
               </div>
 
               <!-- vertical line -->
@@ -188,80 +188,88 @@
           </div>
           <div class="border-b border-green-500"></div>
           <div class="mx-72"><span><img class="w-16" src="Group 56.png"</span></div>
-          <div class="flex mx-7 my-7 gap-7">
-            <P>A</P><button class="btn btn-active btn-ghost">A1</button>
-            <button class="btn btn-active btn-ghost">A2</button>
-            <button class="btn btn-active btn-ghost">A3</button>
-            <button class="btn btn-active btn-ghost">A4</button>
+
+
+          <div>
+           
+          <div class="flex mx-7 my-7  gap-7 ">
             
-          </div>
-          <div class="flex mx-7 my-7 gap-7">
-            <P>B</P><button class="btn btn-active btn-ghost">B1</button>
-            <button class="btn btn-active btn-ghost">B2</button>
-            <button class="btn btn-active btn-ghost">B3</button>
-            <button class="btn btn-active btn-ghost">B3</button>
+            <P>A</P><button onclick="ticket(this)" class="w-12 rounded-lg">A1</button>
+            <button  onclick="ticket(this)" class="w-12 rounded-lg"> A2</button>
+            <button  onclick="ticket(this)" class="w-12 rounded-lg">A3</button>
+            <button  onclick="ticket(this)" class="w-12 rounded-lg"> A4</button>
             
-          </div>
-          <div class="flex mx-7 my-7 gap-7">
-            <P>C</P><button class="btn btn-active btn-ghost">C1</button>
-            <button class="btn btn-active btn-ghost">C2</button>
-            <button class="btn btn-active btn-ghost">C3</button>
-            <button class="btn btn-active btn-ghost">C4</button>
-              
-          </div>
-          <div class="flex mx-7 my-7 gap-7">
-            <P>D</P><button class="btn btn-active btn-ghost">D1</button>
-            <button class="btn btn-active btn-ghost">D2</button>
-            <button class="btn btn-active btn-ghost">D3</button>
-            <button class="btn btn-active btn-ghost">D4</button>
-              
-          </div>
-          <div class="flex mx-7 my-7 gap-8">
-            <P>E</P><button class="btn btn-active btn-ghost">E1</button>
-            <button class="btn btn-active btn-ghost">E2</button>
-            <button class="btn btn-active btn-ghost">E3</button>
-            <button class="btn btn-active btn-ghost">E4</button>
-              
-          </div>
-          <div class="flex mx-7 my-7 gap-8">
-            <P>F</P><button class="btn btn-active btn-ghost">F1</button>
-            <button class="btn btn-active btn-ghost">F2</button>
-            <button class="btn btn-active btn-ghost">F3</button>
-            <button class="btn btn-active btn-ghost">F4</button>
-              
-          </div>
-          <div class="flex mx-7 my-7 gap-7">
-            <P>G</P><button class="btn btn-active btn-ghost">G1</button>
-            <button class="btn btn-active btn-ghost">G2</button>
-            <button class="btn btn-active btn-ghost">G3</button>
-            <button class="btn btn-active btn-ghost">G4</button>
-              
-          </div>
-          <div class="flex mx-7 my-7 gap-7">
-            <P>H</P><button class="btn btn-active btn-ghost"">H1</button>
-            <button class="btn btn-active btn-ghost">H2</button>
-            <button class="btn btn-active btn-ghost">H3</button>
-            <button class="btn btn-active btn-ghost">H4</button>
-              
-          </div>
-          <div class="flex mx-7 my-7 gap-9">
-            <P>I</P> <button class="btn btn-active btn-ghost">I1</button>
-            <button class="btn btn-active btn-ghost">I2</button>
-            <button class="btn btn-active btn-ghost">I3</button>
-            <button class="btn btn-active btn-ghost">I4</button>
-              
-          </div>
-          <div class="flex mx-7 my-7 gap-8">
-            <P>J</P><button class="btn btn-active btn-ghost">J1</button>
-            <button class="btn btn-active btn-ghost">J2</button>
-            <button class="btn btn-active btn-ghost">J3</button>
-            <button class="btn btn-active btn-ghost">J4</button>
-              
-          </div>
+           
           
+          </div>
+        
+          <div class="flex mx-7 my-7 gap-7">
+            <P>B</P><button onclick="ticket(this)" class="w-12 rounded-lg" >B1</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg" >B3</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">B2</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">B3</button>
+            
+          </div>
+          <div class="flex mx-7 my-7 gap-7">
+            <P>C</P><button onclick="ticket(this)" class="w-12 rounded-lg">C1</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">C2</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">C3</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">C4</button>
+              
+          </div>
+          <div class="flex mx-7 my-7 gap-7">
+            <P>D</P><button onclick="ticket(this)" class="w-12 rounded-lg">D1</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">D2</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">D3</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">D4</button>
+              
+          </div>
+          <div class="flex mx-7 my-7 gap-7">
+            <P>E</P><button onclick="ticket(this)" class="w-12 rounded-lg">E1</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">E2</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">E3</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">E4</button>
+              
+          </div>
+          <div class="flex mx-7 my-7 gap-7">
+            <P>F</P><button onclick="ticket(this)" class="w-12 rounded-lg">F1</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">F2</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">F3</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">F4</button>
+              
+          </div>
+          <div class="flex mx-7 my-7 gap-7">
+            <P>G</P><button onclick="ticket(this)" class="w-12 rounded-lg">G1</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">G2</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">G3</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">G4</button>
+              
+          </div>
+          <div class="flex mx-7 my-7 gap-7">
+            <P>H</P><button onclick="ticket(this)" class="w-12 rounded-lg">H1</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">H2</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">H3</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">H4</button>
+              
+          </div>
+          <div class="flex mx-7 my-7 gap-7">
+            <P>I</P> <button onclick="ticket(this)" class="w-12 rounded-lg">I1</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">I2</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">I3</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">I4</button>
+              
+          </div>
+          <div class="flex mx-7 my-7 gap-7">
+            <P>J</P><button onclick="ticket(this)" class="w-12 rounded-lg">J1</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">J2</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">J3</button>
+            <button onclick="ticket(this)" class="w-12 rounded-lg">J4</button>
+              
+          </div>
           
         </div>
-        <div class="border-r border-green-500 ..."></div>
+        </div>
+        <div  class="border-r border-green-500 ..."></div>
         <!-- second part -->
         
         <div>
@@ -271,34 +279,33 @@
             
             <div class="flex gap-2">
               <p>Seat</p>
-              <button class="">0</button>
+              <button id="nipu">0</button>
             </div>
             <p>Class</p>
             <p>Price</p>
           </div>
           <div class="border-b border-green-500"></div>
-          <div class="flex gap-24">
+          <!-- para option -->
+          <table id="seatQuantity" class=" gap-24">
             
-            <button>C2</button>
-            <p>Economy</p>
-            <p>550</p>
-          </div>
-          <div class="flex gap-24">
-            <button>C3</button>
-            <p>Economy</p>
-            <p>550</p>
-          </div>
+        
+           
+
+            
+        </tr>
+          
+          </table>
           <div class="border-b border-green-500"></div>
           <div class="flex gap-60">
             <p>Total</p>
             
-            <p>550</p>
+            <p>640</p>
           </div>
           <input class="border-dashed border-2 border-indigo-600 font-bold text-2xl my-5 rounded-lg" type="text" placeholder="Have any Cupon"><button class="btn btn-success">Apply</button>
           <div class="flex gap-60">
             <p> Grand Total</p>
             
-            <p> BDT-550</p>
+            <p> BDT-640</p>
           </div>
           <div class="my-5">
           <P>Passenger Name</P>
