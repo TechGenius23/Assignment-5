@@ -17,9 +17,9 @@ function ticket(event){
     const tableContainer= document.getElementById('seatQuantity')
   
      const tr=document.createElement("tr")
-    //  tr.classList.add('px-8')
+    
      const p= document.createElement('td')
-    //  p.classList.add('px-8')
+    
      p.innerText=value;
      const p2= document.createElement('td')
      p2.classList.add('px-20')
